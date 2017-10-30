@@ -1,0 +1,100 @@
+<ul>
+<li><a href="#"><span>K1</span></a><span class="dropBottom"></span>
+		<ul>
+			<li><a href="k1-Unit1.php">Unit1 Letters</a>
+		        <li><a href="k1-Unit2.php">Unit2 Colors</a></li>
+		        <li><a href="k1-Unit3.php">Unit3 Shapes</a></li>
+		        <li><a href="k1-Unit4.php">Unit4 Numbers</a></li>
+		        <li><a href="k1-Unit5.php">Unit5 Weather</a></li>
+		        <li><a href="k1-Unit6.php">Unit6 Animals</a></li>
+		        <li><a href="k1-Unit7.php">Unit7 Food</a></li>
+		        <li><a href="k1-Unit8.php">Unit8 Body Parts</a></li>
+		        <li><a href="k1-Unit9.php">Unit9 Five Sense</a></li>
+		        <li><a href="k1-Unit10.php">Unit10 Musical Instrument</a></li>
+		        <li><a href="k1-Unit11.php">Unit11 Pattern</a></li>
+		        <li><a href="k1-Unit12.php">Science</a></li>
+		        <li><a href="../teach_source/K1/Let's Begin Games/index.swf" target="_blank">Let's Begin Games</a></li>
+		        <li><a href="k1-BreakTime.php">Break Time</a></li>
+				<li><a href="Festival.php">Festival</a></li>
+		        <li><a href="../teach_source/K1/Others">Others</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>K2</span></a><span class="dropBottom"></span>
+		<ul>
+			<li><a href="#">Unit1 At the Grocery</a><span class="dropRight"></span>
+	
+				<ul>
+					<li><a href="k2-LA1.php">Language Arts</a></li>
+					<li><a href="k2-Math1.php">Math(Counting from 1 to 20)</a></li>
+					<li><a href="k2-HSP1.php">HSP(Ready,set,science)</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit2 Where is it</a>
+				<ul>
+					<li><a href="k2-LA2.php">Language Arts</a></li>
+					<li><a href="k2-Math2.php">Math(Preposition of Location)</a></li>
+					<li><a href="k2-HSP2.php">HSP(Animals A to Z)</a></li>
+				</ul>
+				
+			</li>
+			<li><a href="#">Unit3 What is a family</a>
+				<ul>
+					<li><a href="k2-LA3.php">Language Arts</a></li>
+					<li><a href="k2-Math3.php">Math(Creating Representation)</a></li>
+					<li><a href="k2-HSP3.php">HSP(Plants)</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit4 Wild Animals Fairs</a>
+				<ul>
+					<li><a href="k2-LA4.php">Language Arts</a></li>
+					<li><a>Math</a></li>
+					<li><a href="k2-HSP4_1.php">HSP(Places to Live and Grow)</a></li>
+					<li><a href="k2-HSP4_2.php">HSP(Our Earth)</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit5 Let's play</a>
+				<ul>
+					<li><a href="k2-LA5.php">Language Arts</a></li>
+					<li><a>Math</a></li>
+					<li><a href="k2-HSP5.php">HSP(Weather and Seasons)</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit6 Let's cook</a>
+				<ul>
+					<li><a href="k2-LA6.php">Language Arts</a></li>
+					<li><a>Math</a></li>
+					<li><a href="k2-HSP6.php">HSP</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit7 I like travelling</a>
+				<ul>
+					<li><a>Language Arts</a></li>
+					<li><a>Math</a></li>
+					<li><a>HSP</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Unit8 Form a good habit</a>
+				<ul>
+					<li><a>Language Arts</a></li>
+					<li><a>Math</a></li>
+					<li><a>HSP</a></li>
+				</ul>
+			</li>
+			<li><a href="k2-Review.php">Review</a></li>
+			<li><a href="../teach_source/K2/k-s3/dm1/msc1/menu.html" target="_blank">Destination</a></li>
+			<li><a href="k2-openclass.php">Open Class</a></li>
+		</ul>
+	</li>
+	
+	<li><a href="#"><span>管理</span></a>
+		<ul>
+			<li><a href="http://b5270951.hk0004.007cloud.net/mail_index.php" target="blank">备课</a></li>
+			<li><a href="http://b5270951.hk0004.007cloud.net/absent_index.php" targe="blank">出勤</a></li>
+			<li><a href="http://b5270951.hk0004.007cloud.net/class_add.php" targe="blank">班级管理</a></li>
+			<li><a href="http://b5270951.hk0004.007cloud.net/attendance_index.php" target="blank">出勤表管理</a></li>
+			<li><a href="http://b5270951.hk0004.007cloud.net/lesson_record_index.php" target="blank">已上课程记录</a></li>
+			
+		</ul>
+	</li>
+</ul>
+

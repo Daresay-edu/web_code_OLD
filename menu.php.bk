@@ -1,0 +1,59 @@
+<ul>
+	<li><a href="#"><span>K1</span></a>
+		<ul>
+			<li><a href="k1-Unit1.php">Unit1 Letters</a>
+		        <li><a href="k1-Unit2.php">Unit2 Colors</a></li>
+		        <li><a href="k1-Unit3.php">Unit3 Shapes</a></li>
+		        <li><a href="k1-Unit4.php">Unit4 Numbers</a></li>
+		        <li><a href="k1-Unit5.php">Unit5 Weather</a></li>
+		        <li><a href="k1-Unit6.php">Unit6 Animals</a></li>
+		        <li><a href="k1-Unit7.php">Unit7 Food</a></li>
+		        <li><a href="k1-Unit8.php">Unit8 Body Parts</a></li>
+		        <li><a href="k1-Unit9.php">Unit9 Five Sense</a></li>
+		        <li><a href="k1-Unit10.php">Unit10 Musical Instrument</a></li>
+		        <li><a href="k1-Unit11.php">Unit11 Pattern</a></li>
+		        <li><a href="k1-Unit12.php">Science</a></li>
+		        <li><a href="../teach_source/K1/Let's Begin Games/index.swf" target="_blank">Let's Begin Games</a></li>
+		        <li><a href="k1-BreakTime.php">Break Time</a></li>
+		        <li><a href="../teach_source/K1/Others">Others</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>K2:Language Arts</span></a>
+		<ul>
+			<li><a href="k2-LA1.php">Unit1 At the Grocery</a></li>
+			<li><a href="k2-LA2.php">Unit2 Where is it</a></li>
+			<li><a href="k2-LA3.php">Unit3 What is a family</a></li>
+			<li><a href="k2-LA4.php">Unit4 Wild Animals Fairs</a></li>
+			<li><a href="k2-LA5.php">Unit5 Let's play</a></li>
+			<li><a href="k2-LA6.php">Unit6 Let's cook</a></li>
+			<li><a href="k2-LA7.php">Unit7 I like travelling</a></li>
+			<li><a href="k2-LA8.php">Unit8 Form a good habit</a></li>
+			<li><a href="k2-Review.php">Review</a></li>
+			<li><a href="k2-openclass.php">Open Class</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>K2:Math</span></a>
+		<ul>
+			<li><a href="../teach_source/K2/k-s3/dm1/msc1/menu.html" target="_blank">Destination</a></li>
+			<li><a href="k2-Math1.php">Counting from 1 to 20</a></li>
+			<li><a href="k2-Math2.php">Explore Position</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>K2:HSP</span></a>
+		<ul>
+			<li><a href="k2-HSP1.php">Ready, Set, Science!</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>K2:PBL</span></a>
+		<ul>
+			<li><a href="k2-Unit1.php">Unit1 At the Grocery</a></li>
+		</ul>
+	</li>
+	<li><a href="#"><span>管理</span></a>
+		<ul>
+			<li><a href="attendance_index.php" target="_blank">出勤表管理</a></li>
+			<li><a href="mail_index.php">备课</a></li>
+		</ul>
+	</li>
+</ul>
+
