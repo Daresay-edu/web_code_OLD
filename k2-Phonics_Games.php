@@ -34,7 +34,9 @@ include("header.php");
 		<div class="small-nav">
 			<a href="#">课程</a>
 			<span>&gt;</span>
-			Phonics Games.
+			K1
+            <span>&gt;</span>
+			Pattern 
 		</div>
 		<!-- End Small Nav -->
 		
@@ -49,37 +51,33 @@ include("header.php");
 			<!-- Content -->
 			<div id="content">
 				
-				<!-- Box -->
+			
+				
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
-						<h2 class="left">Games</h2>
-                    			</div>
-					<!-- End Box Head -->	
-
-					<!-- Table -->
-					<div class="vidoes">
-                      			<!-- Add Videos -->
-                      			<br/>
-					<form name='videoplay' method='post' action='public/playvideo.php'>
-					   <table>
-                       			      <?php
-					      	require_once("public/source_display.php");
-						$root_dir="../teach_source/K2/phonics/";
-							$type="game";
-						display_source_by_filename($root_dir, $type);
-                       				?>
-                          
-                    			</table>
-								</form>
-                     
+						<h2>Games</h2>
 					</div>
-					<!-- Table -->
-					
-				</div>
-				<!-- End Box -->
+					<!-- End Box Head -->
+					<div class="vidoes">
+                      <!-- Add Videos -->
+		      <br/>
+		      <table>
+		      <?php
+		      	require_once("public/source_display.php");
+				$root_dir="../teach_source/K2/phonics/";
+				$type="game";
+				display_source_by_filename($root_dir, $type);
 
-				
+		      ?>
+
+		      </table>
+
+		      </div>
+		      <!-- Table -->
+		      </div>
+		      <!-- End Box -->
+			  
 			</div>
 			<!-- End Content -->
 			

@@ -24,9 +24,19 @@ function playpicture(str)
 function runnotebook(str)
 {
 	document.getElementById("notebook_source").value = str;
-	LGameWindow = window.open('','exeWindow','width=3,height=3');
-    LGameWindow.focus();
+	//LGameWindow = window.open('','exeWindow','width=3,height=3');
+    //LGameWindow.focus();
 	document.notebookrun.submit();
+	return true;
+
+} 
+function runexe(str)
+{
+	//alert(str);
+	document.getElementById("exe_source").value = str;
+	//LGameWindow = window.open('','exeWindow','width=3,height=3');
+    //LGameWindow.focus();
+	document.exerun.submit();
 	return true;
 
 } 
@@ -244,3 +254,6 @@ function getsomeoneAB() {
 	 getClassMem(classid);
 	 getClassnum1(classid);
  }
+ window.document.oncontextmenu = function(){ 
+    return false;
+}

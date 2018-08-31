@@ -352,7 +352,7 @@ $k1_unit7_path='../teach_source/K1/Unit7';
 $k1_unit7_videos_path='K1/Unit7';
 /*====================================================*/
 $k1_unit7_videos_photo_list=array(
-				  "../teach_source/K1/notebook/teaching.png",
+				
 				  "$k1_unit7_path/Videos/apples_are_yummy.png",
 				  "$k1_unit7_path/Videos/fruit_train.png",
 				  "$k1_unit7_path/Videos/fruits_and_vegetables.png",
@@ -368,7 +368,7 @@ $k1_unit7_videos_photo_list=array(
 				  );
 
 $k1_unit7_videos_real_list=array(
-				 "../teach_source/K1/notebook/Unit7_Foods.php",
+				 
 				 "$k1_unit7_videos_path/Videos/apples_are_yummy.mp4",
 				 "$k1_unit7_videos_path/Videos/fruit_train.mp4",
 				 "$k1_unit7_videos_path/Videos/fruits_and_vegetables.mp4",
@@ -383,7 +383,7 @@ $k1_unit7_videos_real_list=array(
 				  "$k1_unit7_videos_path/Videos/Fruit_Song1.mp4",
 				 );
 
-$k1_unit7_videos_name_list=array("Teaching","Apples Are Yummy","Fruits Train","Fruits And Vegetables",
+$k1_unit7_videos_name_list=array("Apples Are Yummy","Fruits Train","Fruits And Vegetables",
 				 "Health Kids Song","Hokey Pokey","Island Groove",
 				 "Something To Eat","Vegetables Song",
 				 "Do you like?",
@@ -424,7 +424,7 @@ $k1_unit8_path='../teach_source/K1/Unit8';
 $k1_unit8_videos_path='K1/Unit8';
 /*====================================================*/
 $k1_unit8_videos_photo_list=array(
-				  "../teach_source/K1/notebook/teaching.png",
+			
 				  "$k1_unit8_path/Videos/body_parts.png",
 				  "$k1_unit8_path/Videos/learn_body_parts.png",
 				  "$k1_unit8_path/Videos/dance.png",
@@ -438,7 +438,7 @@ $k1_unit8_videos_photo_list=array(
 				  );
 
 $k1_unit8_videos_real_list=array(
-				 "../teach_source/K1/notebook/Unit8_Body_Parts.php",
+			
 				 "$k1_unit8_videos_path/Videos/body_parts.mp4",
 				 "$k1_unit8_videos_path/Videos/learn_body_parts.mp4",
 				 "$k1_unit8_path/Videos/dance.swf",
@@ -451,7 +451,7 @@ $k1_unit8_videos_real_list=array(
 				 "$k1_unit8_videos_path/Videos/head_shoulders.mp4",
 				 );
 
-$k1_unit8_videos_name_list=array("Teaching","Body Parts","Learn Body Parts",
+$k1_unit8_videos_name_list=array("Body Parts","Learn Body Parts",
 				 "Dance",
 				 "Body Song",
 				 "Body Song1",
@@ -510,7 +510,7 @@ $k1_unit9_path='../teach_source/K1/Unit9';
 $k1_unit9_videos_path='K1/Unit9';
 /*====================================================*/
 $k1_unit9_videos_photo_list=array(
-				  "../teach_source/K1/notebook/teaching.png",
+			
 				  "$k1_unit9_path/Videos/body_parts.png",
 				  "$k1_unit9_path/Videos/five_sense.png",
 				  "$k1_unit9_path/Videos/learn_body_parts.png",
@@ -534,7 +534,7 @@ $k1_unit9_videos_photo_list=array(
 				  );
 
 $k1_unit9_videos_real_list=array(
-				  "../teach_source/K1/notebook/Unit9_The_Five_sense.php",
+		
 				 "$k1_unit9_videos_path/Videos/body_parts.mp4",
 				 "$k1_unit9_videos_path/Videos/five_sense.flv",
 				 "$k1_unit9_videos_path/Videos/learn_body_parts.mp4",
@@ -557,7 +557,7 @@ $k1_unit9_videos_real_list=array(
 				 "$k1_unit9_videos_path/Videos/friday.mp4",
 				 );
 
-$k1_unit9_videos_name_list=array("Teaching","Body Parts","Learn Body Parts",
+$k1_unit9_videos_name_list=array("Body Parts","Learn Body Parts",
 				 "Five Sense",
 				 "Dance",
 				 "Body Song",
@@ -620,7 +620,7 @@ $k1_unit10_path='../teach_source/K1/Unit10';
 $k1_unit10_videos_path='K1/Unit10';
 /*====================================================*/
 $k1_unit10_videos_photo_list=array(
-				  "../teach_source/K1/notebook/teaching.png",
+				 
 				   "$k1_unit10_path/Videos/instrument_sound.png",
 				   "$k1_unit10_path/Videos/instrument_sound1.png",
 				   "$k1_unit10_path/Videos/learn_instrument.png",
@@ -657,7 +657,7 @@ $k1_unit10_videos_photo_list=array(
 				   );
 
 $k1_unit10_videos_real_list=array(
-				  "../teach_source/K1/notebook/Unit10_Musical_Instruments.php",
+		
 				  "$k1_unit10_videos_path/Videos/instrument_sound.mp4",
 				  "$k1_unit10_videos_path/Videos/instrument_sound1.mp4",
 				  "$k1_unit10_videos_path/Videos/learn_instrument.mp4",
@@ -694,7 +694,7 @@ $k1_unit10_videos_real_list=array(
 				  );
 
 $k1_unit10_videos_name_list=array(
-				  "Teaching",
+				
 				  "Instrument Sound",
 				  "Instrument Sound",
 				  "Learn Instrumet",
@@ -748,7 +748,7 @@ $k1_unit11_path='../teach_source/K1/Unit11';
 $k1_unit11_videos_path='K1/Unit11';
 /*====================================================*/
 $k1_unit11_videos_photo_list=array(
-				  "../teach_source/K1/notebook/teaching.png",
+				
 				   "$k1_unit11_path/Videos/ab_pattern.png",
 				   "$k1_unit11_path/Videos/ab_pattern1.png",
 				   "$k1_unit11_path/Videos/ab_pattern2.png",
@@ -759,7 +759,7 @@ $k1_unit11_videos_photo_list=array(
 				  );
 
 $k1_unit11_videos_real_list=array(
-				  "../teach_source/K1/notebook/Unit11_Patterns.php",
+			
 				  "$k1_unit11_videos_path/Videos/ab_pattern.mp4",
 				  "$k1_unit11_videos_path/Videos/ab_pattern1.mp4",
 				  "$k1_unit11_videos_path/Videos/ab_pattern2.mp4",
@@ -769,7 +769,7 @@ $k1_unit11_videos_real_list=array(
 				  "$k1_unit11_videos_path/Videos/Pattern3.mp4",
 				 );
 
-$k1_unit11_videos_name_list=array("Teaching","AB Pattern","AB Pattern","AB Pattern","AB Pattern","AB Pattern","Pattern","Pattern");
+$k1_unit11_videos_name_list=array("AB Pattern","AB Pattern","AB Pattern","AB Pattern","AB Pattern","Pattern","Pattern");
 
 /*====================================================*/
 $k1_unit11_games_photo_list=array("$k1_unit11_path/Games/patterngame.png",

@@ -36,7 +36,7 @@ include("header.php");
 			<span>&gt;</span>
 			K2
             <span>&gt;</span>
-			HSP8: Motion
+			LA2
 		</div>
 		<!-- End Small Nav -->
 		

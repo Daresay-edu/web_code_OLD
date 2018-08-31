@@ -22,7 +22,7 @@ function display_source($photo_list, $real_list, $name_list) {
 			echo"</a></td>";
 
 		} else if(strstr($real_list[$i],'php')){
-			echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\" class=\"video_link\"
+			echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\" 
 				style=\"width:52px;height:330px\">";
 			echo "<img src=\"$V\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\"
 				style=\"margin-bottom:4px\" title=\"$name_list[$i]\"/>";
@@ -75,7 +75,7 @@ function display_source1($photo_list, $real_list, $name_list,$type) {
 			echo"</a></td>";
 
 		} else if(strstr($real_list[$i],'php')){
-			echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\" class=\"video_link\"
+			echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\"
 				style=\"width:52px;height:330px\">";
 			echo "<img src=\"$V\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\"
 				style=\"margin-bottom:4px\" title=\"$name_list[$i]\"/>";
@@ -184,8 +184,13 @@ function display_source_by_filename($dir_path, $type) {
 				echo "</form>";
 			} 
 			if ($type=="notebook") {
-				echo "<form name='notebookrun' method='post' target='exeWindow' action='public/runnotebook.php'>";
+				echo "<form name='notebookrun' method='post' action='public/runnotebook.php'>";
 				echo "<input type='hidden' name='notebook_source' id='notebook_source' value='def'/>";
+				echo "</form>";	
+			}
+			if ($type=="game") {
+			    echo "<form name='exerun' method='post' action='public/runexe.php'>";
+				echo "<input type='hidden' name='exe_source' id='exe_source' value='def'/>";
 				echo "</form>";	
 			}
 			
@@ -234,13 +239,21 @@ function display_source_by_filename($dir_path, $type) {
 
 
 							}else if(strstr($source_file,'php')){ 							
-									echo "<td>&nbsp;&nbsp;<a href=\"$source_file\" class=\"video_link\"
+									echo "<td>&nbsp;&nbsp;<a href=\"$source_file\" 
 										style=\"width:52px;height:330px\">";
 									echo "<img src=\"$png_file\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\"
 										style=\"margin-bottom:4px\" title=\"$filename\"/>";
 									echo"</a></td>";
 							} else if (strstr($source_file,'notebook')) {
-								echo "<td>&nbsp;&nbsp;<a href='#' id='$source_file' onClick='javascript:return runnotebook(this.id);'
+								echo "<td>&nbsp;&nbsp;<a href='#' target='_self' id='$source_file' onClick='javascript:return runnotebook(this.id);'
+									style='width:52px;height:330px'>";
+									
+								echo "<img src=\"$png_file\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\"
+									style=\"margin-bottom:4px\" title=\"$filename\"/>";
+								echo"</a></td>";
+							} else if (strstr($source_file,'.exe') || strstr($source_file,'.bat')) {
+							
+								echo "<td>&nbsp;&nbsp;<a href='#' id='$source_file' onClick='javascript:return runexe(this.id);'
 									style='width:52px;height:330px'>";
 									
 								echo "<img src=\"$png_file\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\"

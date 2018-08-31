@@ -21,32 +21,9 @@
 </head>
 <body>
 <!-- Header -->
-<div id="header">
-	<div class="shell">
-		<!-- Logo + Top Nav -->
-		<div id="top">
-		<div id="top-dx">
-		<img src="images/dx.png" height="70px" width="150px"/>
-		</div>
-			<div id="top-navigation">
-				Welcome <a href="#"><strong>Administrator</strong></a>
-				<span>|</span>
-				<a href="#">Help</a>
-				<span>|</span>
-				<a href="#">Profile Settings</a>
-				<span>|</span>
-				<a href="#">Log out</a>
-			</div>
-		</div>
-		<!-- End Logo + Top Nav -->
-		
-		<!-- Main Nav -->
-		<div id="navigation">
-			<?php include("menu.php"); ?>
-		</div>
-		<!-- End Main Nav -->
-	</div>
-</div>
+<?php
+include("header.php");
+?>
 <!-- End Header -->
 
 <!-- Container -->
@@ -59,7 +36,7 @@
 			<span>&gt;</span>
 			K1
             <span>&gt;</span>
-			Science	
+			Pattern 
 		</div>
 		<!-- End Small Nav -->
 		
@@ -78,6 +55,33 @@
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
+						<h2 class="left">Teach Book</h2>
+                    			</div>
+					<!-- End Box Head -->	
+
+					<!-- Table -->
+					<div class="vidoes">
+                      			<!-- Add Videos -->
+                      			<br/>
+					   <table>
+                       			      <?php
+					      	require_once("public/source_display.php");
+							$root_dir="../teach_source/K1/Unit12/";
+							$type="notebook";
+						display_source_by_filename($root_dir, $type);
+                       				?>
+                          
+                    			</table>
+                     
+					</div>
+					<!-- Table -->
+					
+				</div>
+				<!-- End Box -->
+				<!-- Box -->
+				<div class="box">
+					<!-- Box Head -->
+					<div class="box-head">
 						<h2 class="left">Videos</h2>
                     			</div>
 					<!-- End Box Head -->	
@@ -86,17 +90,16 @@
 					<div class="vidoes">
                       			<!-- Add Videos -->
                       			<br/>
-					   <form name='videoplay' method='post' action='public/playvideo.php'>
-					   <table>
+					   
 					   <?php
-					   include "videos_games_arrays.php";
-					   require_once("public/source_display.php");
-					   display_source($k1_unit12_videos_photo_list, $k1_unit12_videos_real_list, $k1_unit12_videos_name_list);
+					  require_once("public/source_display.php");
+							$root_dir="../teach_source/K1/Unit12/";
+							$type="video";
+						display_source_by_filename($root_dir, $type);
 
 					   ?>
                           
-                    			</table>
-						</form>
+                    	
                      
 					</div>
 					<!-- Table -->
@@ -104,7 +107,6 @@
 				</div>
 				<!-- End Box -->
 				
-				<!-- Box -->
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
@@ -113,12 +115,23 @@
 					<!-- End Box Head -->
 					<div class="vidoes">
                       <!-- Add Videos -->
-                      <br/>
-                     
-					</div>
-					<!-- Table -->
-				</div>
-				<!-- End Box -->
+		      <br/>
+		      <table>
+		      <?php
+		      	require_once("public/source_display.php");
+				$root_dir="../teach_source/K1/Unit12/";
+				$type="game";
+				display_source_by_filename($root_dir, $type);
+
+		      ?>
+
+		      </table>
+
+		      </div>
+		      <!-- Table -->
+		      </div>
+		      <!-- End Box -->
+			  
 			</div>
 			<!-- End Content -->
 			

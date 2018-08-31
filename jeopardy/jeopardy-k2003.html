@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>jeopardy</title>
+	<style>
+		td{
+			width:180px;
+			height:100px;
+			 text-align:center;
+		}
+		td.LA{
+			background:#06BDFF;
+		}
+		td.Math{
+			background:#9EDE59;
+		}
+		td.Science{
+			background:#EB2CD4;
+		}
+		td.Reading{
+			background:#FFB42D;
+		}
+	</style>
+	<script>
+		function changecolor(id) {
+			document.getElementById(id).style.backgroundColor="white";
+		}
+	</script>
+</head>
+<body>
+<center>
+	<table>
+		<tr>
+			<td class='LA'><h3>Language Arts</h3></td>
+			<td class='Math' ><h3>Math</h3></td>
+			<td class='Science'><h3>Science</h3></td>
+			<td class='Reading'><h3>Reading</h3></td>
+			
+		</tr>
+		<tr>
+			<td class='LA' id='0' onclick='changecolor(this.id)'><a href='S1/LA-10points.php' target='_blank'>10 points</a></td>
+			<td class='Math' id='1' onclick='changecolor(this.id)'><a href='S1/Math-10points.php' target='_blank'>10 points</a></td>
+			<td class='Science' id='2' onclick='changecolor(this.id)'><a href='S1/Science-10points.php' target='_blank'>10 points</a></td>
+			<td class='Reading' id='3' onclick='changecolor(this.id)'><a href='S1/Reading-10points.php' target='_blank'>10 points</a></td>
+			
+		</tr>
+		<tr>
+			<td class='LA' id='4' onclick='changecolor(this.id)'><a href='S1/LA-20points.php' target='_blank'>20 points</a></td>
+			<td class='Math' id='5' onclick='changecolor(this.id)'><a href='S1/Math-20points.php' target='_blank'>20 points</a></td>
+			<td class='Science' id='6' onclick='changecolor(this.id)'><a href='S1/Science-20points.php' target='_blank'>20 points</a></td>
+			<td class='Reading' id='7' onclick='changecolor(this.id)'><a href='S1/Reading-20points.php' target='_blank'>20 points</a></td>
+			
+		</tr>
+		<tr>
+			<td class='LA' id='8' onclick='changecolor(this.id)'><a href='S1/LA-30points.php' target='_blank'>30 points</a></td>
+			<td class='Math' id='9' onclick='changecolor(this.id)'><a href='S1/Math-30points.php' target='_blank'>30 points</a></td>
+			<td class='Science' id='10' onclick='changecolor(this.id)'><a href='S1/Science-30points.php' target='_blank'>30 points</a></td>
+			<td class='Reading' id='11' onclick='changecolor(this.id)'><a href='S1/Reading-30points.php' target='_blank'>30 points</a></td>
+			
+		</tr>
+		<tr>
+			<td class='LA' id='12' onclick='changecolor(this.id)'><a href='S1/LA-40points.php' target='_blank'>40 points</a></td>
+			<td class='Math' id='13' onclick='changecolor(this.id)'><a href='S1/Math-40points.php' target='_blank'>40 points</a></td>
+			<td class='Science' id='14' onclick='changecolor(this.id)'><a href='S1/Science-40points.php' target='_blank'>40 points</a></td>
+			<td class='Reading' id='15' onclick='changecolor(this.id)'><a href='S1/Reading-40points.php' target='_blank'>40 points</a></td>
+			
+		</tr>
+	</table>
+</center>
+</body>
+</html>

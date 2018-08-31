@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="js/jquery.fancybox-1.2.1.pack.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/fancyplayer.js"></script>
+	<script type="text/javascript" src="js/daresay.js"></script>
     <script type="text/javascript">
 
 	     var videopath = "../teach_source/";
@@ -35,7 +36,7 @@ include("header.php");
 			<span>&gt;</span>
 			K2
             <span>&gt;</span>
-			Open Class	
+			OpenClass 
 		</div>
 		<!-- End Small Nav -->
 		
@@ -54,7 +55,7 @@ include("header.php");
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
-						<h2 class="left">Videos</h2>
+						<h2 class="left">Teach Book</h2>
                     			</div>
 					<!-- End Box Head -->	
 
@@ -64,48 +65,10 @@ include("header.php");
                       			<br/>
 					   <table>
                        			      <?php
-					        include "videos_games_arrays.php";
-							$i=0;
-							$print_tr=0;
-							$td_num=0;
-							$photo_width=237;
-							$photo_height=148;
-							$photo_list=$k2_openclass_photo_list;
-							$real_list=$k2_openclass_real_list;
-							$name_list=$k2_openclass_name_list;
-							foreach ($photo_list as $K=>$V) {
-								 //3 vedioes in a line
-								 if ($i%3 == 0) {
-									echo "<tr>";
-								 }
-							      if (strstr($real_list[$i], 'http') || strstr($real_list[$i], '.swf')||
-								   strstr($real_list[$i], '.html') ) { //outside source
-								   	   
-									   echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\" target=\"_blank\">";
-									   echo "<img src=\"$V\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\" 		
-									   style=\"margin-bottom:4px\" title=\"$name_list[$i]\"/>";
-									   echo"</a></td>";
-									   
-								  
-							       } else { //vedios or swf
-									echo "<td>&nbsp;&nbsp;<a href=\"$real_list[$i]\" class=\"video_link\" 		
-									style=\"width:52px;height:330px\">";
-                            						echo "<img src=\"$V\" width=\"$photo_width\"  height=\"$photo_height\" alt=\"tour\" 	
-									style=\"margin-bottom:4px\" title=\"$name_list[$i]\"/>";
-									echo"</a></td>";
-								   }
-								 
-								//3 videos in a line   
-							    $td_num++;
-								if ($td_num == 3) {
-										echo "</tr>";
-										$td_num=0;
-								}	
-								$i++;
-							
-							}
-							
-					   		
+					      	require_once("public/source_display.php");
+							$root_dir="../teach_source/K2/openclass/";
+							$type="notebook";
+						display_source_by_filename($root_dir, $type);
                        				?>
                           
                     			</table>
@@ -115,6 +78,9 @@ include("header.php");
 					
 				</div>
 				<!-- End Box -->
+				
+				
+		
 				
 			</div>
 			<!-- End Content -->
@@ -130,8 +96,30 @@ include("header.php");
 						<h2>Management</h2>
 					</div>
 					<!-- End Box Head-->
-					<?php include("teach_right.php");?>
 					
+					<div class="box-content">
+						<a href="#" class="add-button"><span>Add new Article</span></a>
+						<div class="cl">&nbsp;</div>
+						
+						<p class="select-all"><input type="checkbox" class="checkbox" /><label>select all</label></p>
+						<p><a href="#">Delete Selected</a></p>
+						
+						<!-- Sort -->
+						<div class="sort">
+							<label>Sort by</label>
+							<select class="field">
+								<option value="">Title</option>
+							</select>
+							<select class="field">
+								<option value="">Date</option>
+							</select>
+							<select class="field">
+								<option value="">Author</option>
+							</select>
+						</div>
+						<!-- End Sort -->
+						
+					</div>
 				</div>
 				<!-- End Box -->
 			</div>

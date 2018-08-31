@@ -52,15 +52,16 @@
 <!-- Container -->
 <div id="container">
 	<div class="shell">
-		
+
 		<!-- Small Nav -->
 		<div class="small-nav">
 		<br/>
 			<a href="#">课程</a>
+			
 			<span>&gt;</span>
 			K1
             <span>&gt;</span>
-			Unit11: Pattern 
+			Unit11: School Supplies 
 		</div>
 		<!-- End Small Nav -->
 		
@@ -113,18 +114,15 @@
 					<div class="vidoes">
                       			<!-- Add Videos -->
                       			<br/>
-					     <form name='videoplay' method='post' action='public/playvideo.php'>
-					   <table>
-					   <?php
-					   include "videos_games_arrays.php";
-					   require_once("public/source_display.php");
-					   display_source($k1_unit11_videos_photo_list, $k1_unit11_videos_real_list, $k1_unit11_videos_name_list);
-
-					   ?>
-                          
-                    			</table>
-						</form>
+						<table>
+					   	    <?php
+					      	require_once("public/source_display.php");
+						$root_dir="../teach_source/K1/Unit11/";
+						$type="video";
+						display_source_by_filename($root_dir, $type);
+                       				?>
                      
+                      </table>
 					</div>
 					<!-- Table -->
 					
@@ -137,19 +135,19 @@
 					<div class="box-head">
 						<h2>Games</h2>
 					</div>
-					<!-- End Box Head -->
+					<!-- Table -->
 					<div class="vidoes">
-                      <!-- Add Videos -->
-                      <br/>
-					   <table>
-                      <?php
-					   include "videos_games_arrays.php";
-					   require_once("public/source_display.php");
-					   display_source($k1_unit11_games_photo_list, $k1_unit11_games_real_list, $k1_unit11_games_name_list);
-
-					   ?>
-                    </table>
+                      			<!-- Add Videos -->
+                      			<br/>
+						<table>
+					   	    <?php
+					      	require_once("public/source_display.php");
+						$root_dir="../teach_source/K1/Unit11/";
+						$type="game";
+						display_source_by_filename($root_dir, $type);
+                       				?>
                      
+                      </table>
 					</div>
 					<!-- Table -->
 				</div>
